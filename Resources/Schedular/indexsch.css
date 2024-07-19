@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffdfba; /* Light background color */
+  color: #333; /* Dark text color */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.scheduler-container {
+  background-color: #ffffff; /* White background for container */
+  color: #333333; /* Dark text color for container */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 1000px;
+  text-align: center;
+}
+
+.scheduler-header h1 {
+  margin-bottom: 20px;
+}
+
+.task-buttons {
+  margin-bottom: 20px;
+}
+
+.task-buttons button {
+  margin: 5px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #333; /* Black text color */
+  font-weight: bold;
+}
+
+.task-buttons .school { background-color: #e6f3f8; }
+.task-buttons .study { background-color: #ffebeb; }
+.task-buttons .break { background-color: #fff7e6; }
+.task-buttons .friends { background-color: #f1e8e6; }
+.task-buttons .activity { background-color: #e6ffed; }
+.task-buttons .homework { background-color: #e6f7ff; }
+.task-buttons .deselect { background-color: #f2f2f2; }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+  color: #333; /* Black text color */
+}
+
+th {
+  background-color: #f5f5f5;
+}
+
+td {
+  height: 60px;
+  background-color: #ffffff; /* Lighter background for cells */
+}
+
+.reset-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #e74c3c;
+  color: #fff;
+  font-weight: bold;
+}
