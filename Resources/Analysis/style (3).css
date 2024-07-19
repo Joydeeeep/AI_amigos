@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #333333;
+  text-align: center;
+}
+
+.progress {
+  width: 100%;
+  height: 30px;
+  background-color: #f2f2f2;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 100%;
+  line-height: 30px;
+  color: #ffffff;
+  text-align: center;
+  transition: width 0.3s ease;
+}
+
+.lesson-progress {
+  background-color: #aec6cf; /* Pastel blue */
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #77dd77;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
